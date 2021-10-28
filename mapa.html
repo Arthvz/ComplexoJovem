@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link rel="stylesheet" href="mapa.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <title>Complexo Jovem</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" type="text/css" href="mapa.css" />
+    <script src="map.js"></script>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="img/LOGOCJ.png" class="logo"></a>  
+      </div>
+      <ul class="nav-links">
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="imagens.html">Imagens</a>
+          </li>
+          <li>
+              <a href="videos.html">Vídeos</a>
+          </li>
+          <li>
+              <a href="sobre.html">Sobre Nós</a>
+          </li>
+      </ul>
+      <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+  </nav>
+  <br>
+  <div class="Cartografia">
+      <h1><center>Cartografia Afetiva</center></h1>
+      <center>Representação espacial e memória com base em percepções de pessoas,<br> praticas culturais e coletividades envolvidas nos territórios como<br> protagonistas e mediadores de suas realidades.</center>
+  </div>
+  <br>
+  <div class="Territorio">
+      <h1><center>O que é território?</center></h1>
+      <center>Pode ser uma área determinada sob uma posse, seja de uma animal,<br> uma pessoa ou de um grupo, de uma organização ou de uma instituição.<br>No conceito tradicional de geografia, território é usado para estudar<br> as relações entre espaços e poder desenvolvidos pelos<br> Estados,  especialmente os Estados nacionais.</center>
+  </div>
+  <br>
+  <div class="Juventude">
+      <h1><center>Como os territórios influenciam as juventudes?</center></h1>
+      <center>Influenciam no sentido de passar a sensação de pertencer a algum lugar.<br> "Esse lugar me representa ou eu o represento."</center>
+  </div>
+  <br>
+    <div id="map"></div>
+
+    <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv7YRz1WWPhkr6aim8wEm4WDPBdk81z54&callback=initMap&v=weekly"
+      async
+    ></script>
+    <br>
+  </body>
+</html>
