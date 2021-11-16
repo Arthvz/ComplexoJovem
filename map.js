@@ -3,7 +3,7 @@ let map;
 function initMap() {
     const myLatLng = { lat: -23.608969571341117, lng: -46.75031962083235 };
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 12,
+      zoom: 10,
       center: myLatLng,
     });
     
@@ -63,7 +63,42 @@ function initMap() {
         title: "EE Prof° Eulália Malta (Lugares onde eu vacilo)",
       });
     
-     var beachMarker = new google.maps.Marker({
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.61909048123952,-46.803998207934555),
+        map: map,
+        icon: 'darkgreen_marker.png',
+        title: "EE Laert de Almeida São Bernardo (Lugares onde eu vacilo)",
+      });
+    
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.591008781032833,-46.74469987619625),
+        map: map,
+        icon: 'darkgreen_marker.png',
+        title: "Campão (Lugares onde eu vacilo)",
+      });
+    
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.588295,-46.7355005),
+        map: map,
+        icon: 'darkgreen_marker.png',
+        title: "Bar do salsicha (Lugares onde eu vacilo)",
+      });
+    
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.671551314630612,-46.80040890426445),
+        map: map,
+        icon: 'darkgreen_marker.png',
+        title: "Escolinha (Lugares onde eu vacilo)",
+      });
+    
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.62981920672397,-46.75968292937303),
+        map: map,
+        icon: 'darkgreen_marker.png',
+        title: "Condomínio Floresta (Lugares onde eu vacilo)",
+      });
+    
+    var beachMarker = new google.maps.Marker({
         position: new google.maps.LatLng(-23.648726, -46.847502),
         map: map,
         icon: 'brown_marker.png',
