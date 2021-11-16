@@ -56,6 +56,13 @@ function initMap() {
         title: "Ponto 7 (Locais de Agressão)",
       });
     
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.65341412688766,-46.85591461997084),
+        map: map,
+        icon: 'darkgreen_marker.png',
+        title: "EE Prof° Eulália Malta (Lugares onde eu vacilo)",
+      });
+    
      var beachMarker = new google.maps.Marker({
         position: new google.maps.LatLng(-23.648726, -46.847502),
         map: map,
