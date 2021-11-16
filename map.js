@@ -6,7 +6,6 @@ function initMap() {
       zoom: 10,
       center: myLatLng,
     });
-    
     var beachMarker = new google.maps.Marker({
         position: new google.maps.LatLng(-23.619627,-46.771811),
         map: map,
