@@ -26,5 +26,12 @@ function initMap() {
         map: map,
         icon: 'red_marker.png',
         title: "Praça do Taboão (Locais de Agressão)",
-      });-23.619627,-46.771811
+      });
+    
+    var beachMarker = new google.maps.Marker({
+        position: new google.maps.LatLng(-23.628081,-46.826238),
+        map: map,
+        icon: 'red_marker.png',
+        title: "EE Amélia dos Anjos Oliveira (Locais de Agressão)",
+      });
 }
